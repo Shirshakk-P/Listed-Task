@@ -8,10 +8,10 @@ Built a customised Web-Scarpper using python to retrive the Youtube channel name
 Environment:
 
         python-3
-        numpy
-        matplotlib
-        keras
+        requests
+        requests-html
+        beautifulsoup4
+        urllib
+        csv
         pandas
-        seaborn
-        scikit-learn
-        tensorflow
+        nest_asyncio
