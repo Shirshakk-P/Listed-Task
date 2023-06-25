@@ -30,7 +30,13 @@ Requirements:
 
 Files:
 
-       task_2_v1.py/task_2_v1.ipynb: Python files for 'HTMLSession()' method of scrapping
+       task_2_v1.py/task_2_v1.ipynb: Python codes for 'HTMLSession()' method of scrapping
+       task_2_v1.py/task_2_v1.ipynb: Python codes for 'Google Search API' method of scrapping
+       youtube_channel_links.csv: YouTube Channel Links (Output of method 1)
+       youtube_links.csv: Scrapped YouTube video links (Output of method 1)
+       YT_Channel_Links.csv: YouTube Channel Links (Output of method 2)
+       
+       
 
 
        
