@@ -5,8 +5,9 @@ Solved Task-2 from the provided assesments. </br>
 Built a customised Web-Scarpper using python to retrive the Youtube channel names from a provided search query.</br>
 
  
+
+#### Method 1: HTMLSession()####
 Requirements:
-### Method 1: HTMLSession()
 
         python-3
         requests
