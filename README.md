@@ -7,7 +7,7 @@ Built a customised Web-Scarpper using python to retrive the Youtube channel name
 Global Requirements:
 
         python-3
-
+        csv
 
 #### Method 1: HTMLSession()
 Requirements:
@@ -16,21 +16,16 @@ Requirements:
         requests-html
         beautifulsoup4
         urllib
-        csv
         pandas
+        nest_asyncio
         nest_asyncio
 
 
 #### Method 2: Google Search API
 Requirements:
 
-        python-3
-        requests
-        requests-html
-        beautifulsoup4
-        urllib
-        csv
-        pandas
+        time
+        googlesearch-pyhton
         nest_asyncio
 
 Files:
