@@ -1,7 +1,8 @@
+###Author: Shirshakk  Purkayastha
 
+This code utilises two 'legitimate' methods of Web-scrapping using python.
 
-#Author: Shirshakk  Purkayastha
-
+###Method 1: 
 
 
 
