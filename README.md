@@ -15,3 +15,11 @@ Requirements:
         csv
         pandas
         nest_asyncio
+
+
+Files:
+
+       task_2_v1.py/task_2_v1.ipynb: Python files for 'HTMLSession()' method of scrapping
+
+
+       
