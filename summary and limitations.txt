@@ -1,0 +1,53 @@
+#Author: Shirshakk  Purkayastha
+
+This repository contains two 'legitimate' methods of Web-Scrapping, viz:
+
+	1) HTMLSession()
+	2) Google Search API/Library
+	
+	
+	Method 1: HTMLSession() 
+    	
+    	Part of the requests_html library in python and provides a convenient way to make HTTP requests and parse HTML content.
+    	
+    	HTMLSession allows you to send HTTP requests and retrieve the HTML content of a webpage and can also handle JavaScript 
+    	rendering, allowing scraping of dynamically generated content.
+    	
+    	HTMLSession is useful for scraping websites that do not have APIs or provide structured data directly.
+    	
+    	> Created an instance of the HTMLSession() class to estabilish a session object.
+    	> Session object is used to send HTTP requests to retrieve the HTML content of the webpage.
+    	> Set up custom search domains to search the query.
+    	> Captured the response generated, then parsed the fetched url using 'HTML Parser' to get the youtube video links.
+    	
+
+		Limitations: 
+			1. Reliant completely on HTTP requests to scrape websites, which are blocked by certain protected websites.
+    			2. Websites dependent on complex JavaScript frameworks on the client-side rendering are sometimes unaccessible
+    			   to this method of scrapping, may lead to incomplete/incorrect data extraction.
+    			3. Highly succeptible to website structure changes, may not provide same data on successive attempts.
+    			4. An upper limit of 100 links is coded into google search engine, thus useful for small scapping attempts.
+
+		
+		
+	Method 2: Google Search Library/API
+	
+	Python library that enables programmatic searching on Google, provides an interface to interact with the Google Search Engine 
+	and retrieve search results, with the option of searching for specific keywords or phrases on Google.
+	
+	Customized search options available (number of search results and sites to be scrappped).
+    
+        Scrapped results returned as a list of dictionaries containing metadata (itle, URL, and description).
+        
+       	> Created an object by calling the 'search' function with the desired query as parameter.
+       	> 'search' function sends request to Google and receives the HTML response. 
+       	> Inbuilt 'parser' function parses the HTML response and outputs the 'channelId' tag from the gathered HTML.
+        
+	
+		Limitations:
+			1. Overuse of scraping search engine results can lead to IP blocking. 
+			2. Dependent on the structure and behavior of Google's search results page, any change highly affects
+			   the results and functionality of this library.
+			3. Number of results retrieved using the Google-search-python library are limited by search engine 
+			   restrictions, which can be increased by using "Google-search API", which are in turn limited to
+			   100 searches per query.
