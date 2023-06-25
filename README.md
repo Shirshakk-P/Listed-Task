@@ -6,7 +6,7 @@ Built a customised Web-Scarpper using python to retrive the Youtube channel name
 
  
 Requirements:
-## Method 1: HTMLSession()
+### Method 1: HTMLSession()
 
         python-3
         requests
